@@ -4,9 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "docker-compose up --build"
+    "start": "docker compose up --build"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.3.3"
+  },
+  "dependencies": {
+    "type-graphql": "^2.0.0-rc.1"
+  }
 }
